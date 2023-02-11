@@ -6,6 +6,11 @@
 .background {
     background-image: url("../../public/firebackground.png");
     background-repeat: no-repeat;
-    background-position: 100% 0;
-    background-color: #020200;
+    left: 42%;
+    background-size: 60%;
+    background-color: #000
+}
+
+body {
+    overflow: hidden;
 }
