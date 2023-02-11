@@ -2,6 +2,7 @@ import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../Header";
+import Navbar from "../Navbar";
 
 const Home: NextPage = () => {
   return (
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen bg-black">
+        <Navbar />
         <div className="container mx-auto max-w-2xl">
           <Header />
         </div>
