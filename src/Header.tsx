@@ -3,9 +3,9 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <div className="background absolute z-0 h-full w-full opacity-75"></div>
+      <div className="background absolute z-0  h-full opacity-75"></div>
       <div className="p-32"></div>
-      <div className="relative z-10">
+      <div className="relative z-10 mx-auto w-96 text-center lg:mx-0 lg:text-left">
         <h1 className="text-8xl font-extrabold text-orange-500">Fireball</h1>
         <p className="my-2 w-96 text-orange-500">
           Fireball Fireball Fireball Fireball Fireball Fireball Fireball

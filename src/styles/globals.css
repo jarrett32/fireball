@@ -4,11 +4,12 @@
 
 
 .background {
-    background-image: url("../../public/firebackground.png");
+    background-image: url("../../public/firebackground1.png");
     background-repeat: no-repeat;
-    left: 42%;
-    background-size: 60%;
-    background-color: #000
+    background-size: cover;
+    background-color: #000;
+    right: 0%;
+    width: 800px;
 }
 
 body {
